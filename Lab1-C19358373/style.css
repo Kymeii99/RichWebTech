@@ -1,0 +1,36 @@
+* { 
+    padding: 0;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.box-one {    
+    padding: 0.1em;
+    background-color: #b78acd;
+    border: 0.1em solid #905cc1; 
+    margin: 0.1em;
+}
+
+.box-two {
+    padding: 0.1em;
+    background-color: #d1a17c;
+    border: 0.1em solid #7c5f47;
+    margin: 0.1em;
+}
+
+.box-three {
+    padding: 0.1em;
+    background-color: #67cc78;
+    border: 0.1em solid #27AE60;
+    margin: 0.1em;
+}
+
+.heading {
+    text-align: center;
+    font-weight: 900;
+}
+
+p {
+    font-size: 0.5em;
+    text-align: center;
+}
