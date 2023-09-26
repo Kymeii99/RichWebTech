@@ -1,4 +1,4 @@
-alert('Hello World') 
+alert('Hello There!! :D This is a alert box') 
 
 //Getting the text
 var textFade = document.querySelector('.heading');
