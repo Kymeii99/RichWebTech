@@ -11,7 +11,7 @@ anime.timeline({loop: true})
     targets: '.heading .letter',
     opacity: [0,1],
     easing: "easeInOutQuad",
-    duration: 2250,
+    duration: 2240,
     delay: (el, i) => 150 * (i+1)
   }).add({
     targets: '.heading',
