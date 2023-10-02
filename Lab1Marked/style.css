@@ -1,0 +1,22 @@
+.column {
+    flex-grow: 0.25;
+    border: 1px solid black;
+    background-color: lavender;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 960px ) {
+    .column {
+        width: calc(50% - 2px)
+    }
+}
+
+@media (max-width: 640px ) {
+    .column {
+        width: calc(100% - 2px)
+    }
+}
