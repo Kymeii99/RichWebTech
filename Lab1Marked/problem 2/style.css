@@ -1,0 +1,54 @@
+body {
+    background-color: aliceblue;
+}
+.note_body {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.note_field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px;;
+    border: 2px solid rgb(146, 228, 228);
+}
+
+#note_color {
+    margin-left: 5px;
+    border-radius: 20px;;
+    border: 2px solid rgb(146, 228, 228);
+    padding: 10px;
+}
+
+button {
+    background-color: azure;
+    color: black;
+    border-radius: 5px;;
+    border: 2px solid rgb(146, 228, 228);
+    margin-left: 5px;;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.note {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.note select {
+    margin-right: 10px;
+}
