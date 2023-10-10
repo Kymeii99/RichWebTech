@@ -1,0 +1,29 @@
+h1 {
+    color: aqua;
+}
+
+h2 {
+    color: aqua;
+}
+
+/* for rotating the images */
+@keyframes rotateImage {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.rotate {
+    animation-name: rotateImage;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+  
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+  

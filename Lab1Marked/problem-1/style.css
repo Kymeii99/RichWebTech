@@ -9,6 +9,7 @@
     flex-wrap: wrap;
 }
 
+/* make it responsive */
 @media (max-width: 960px ) {
     .column {
         width: calc(50% - 2px)
