@@ -1,0 +1,76 @@
+body {
+    background-color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+}
+
+.inputDiv {
+    text-align: center; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(137, 207, 211); 
+    border: 3px solid rgb(65, 128, 132); 
+    border-radius: 15px;
+    padding: 45px;
+    width: 45%; 
+    margin: 0 auto; 
+}
+
+input {
+    margin-right: 5px;
+}
+
+.searchDiv {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contactTable {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: #fff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Apply odd row background color */
+tr:nth-child(odd) {
+    background-color: #d4d0d0;
+}
+
+/* Error message styling */
+#error, #noResult {
+    color: #ff0000;
+    font-weight: bold;
+    display: none;
+    text-align: center;
+}
