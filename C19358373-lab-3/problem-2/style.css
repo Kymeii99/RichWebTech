@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.layout {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+input {
+    width: 50px;
+    padding: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(161, 115, 77);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
